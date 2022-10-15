@@ -25,7 +25,7 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-indigo",
+    name="tutor-indigo-cedeala",
     version=ABOUT["__version__"],
     url="https://github.com/overhangio/tutor-indigo",
     project_urls={
@@ -34,8 +34,8 @@ setup(
         "Community": "https://discuss.overhang.io",
     },
     license="AGPLv3",
-    author="Overhang.IO",
-    description="Indigo theme plugin for Tutor",
+    author="Overhang.IO & Codea.LA",
+    description="Indigo theme plugin for Tutor and Codeala",
     long_description=load_readme(),
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
