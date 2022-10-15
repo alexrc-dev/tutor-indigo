@@ -25,7 +25,7 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-indigo-cedeala",
+    name="tutor-indigo-codeala-cedeala",
     version=ABOUT["__version__"],
     url="https://github.com/overhangio/tutor-indigo",
     project_urls={
@@ -41,7 +41,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.7",
     install_requires=["tutor>=13.0.0,<15.0.0"],
-    entry_points={"tutor.plugin.v1": ["indigo-codeala = tutorindigo.plugin"]},
+    entry_points={"tutor.plugin.v1": ["indigo-codeala-codeala = tutorindigo.plugin"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

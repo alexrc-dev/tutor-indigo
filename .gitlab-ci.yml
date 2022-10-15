@@ -1,9 +1,9 @@
 variables:
-    TUTOR_PLUGIN: indigo
-    TUTOR_PYPI_PACKAGE: tutor-indigo
+    TUTOR_PLUGIN: indigo-codeala
+    TUTOR_PYPI_PACKAGE: tutor-indigo-codeala
     TUTOR_BUILD_IMAGE: openedx
     OPENEDX_RELEASE: maple
-    GITHUB_REPO: overhangio/tutor-indigo
+    GITHUB_REPO: overhangio/tutor-indigo-codeala
 
 include:
   - project: 'community/tutor-ci'
